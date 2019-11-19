@@ -26,6 +26,7 @@ Valid commands:
   ls [-lah] [FILE]...
   rm [-rf] FILE...
   mv [-nT] SOURCE... DEST
+  cp [-r] SOURCE DEST
   mkdir [-p] FILE...
   touch [-amc] FILE...
   chmod [-R] OCTAL-MODE FILE...
@@ -53,6 +54,9 @@ Valid commands:
 	mvOpts = getopt.New()
 	mvn    = mvOpts.Bool('n')
 	mvT    = mvOpts.Bool('T')
+
+	cpOpts = getopt.New()
+	cpr    = cpOpts.Bool('r')
 
 	mkdirOpts = getopt.New()
 	mkdirp    = mkdirOpts.Bool('p')
@@ -88,6 +92,7 @@ func init() {
 	lsOpts.SetUsage(printHelp)
 	rmOpts.SetUsage(printHelp)
 	mvOpts.SetUsage(printHelp)
+	cpOpts.SetUsage(printHelp)
 	touchOpts.SetUsage(printHelp)
 	chmodOpts.SetUsage(printHelp)
 	chownOpts.SetUsage(printHelp)
@@ -116,6 +121,9 @@ func main() {
 	case "mv":
 		mvOpts.Parse(argv)
 		mv(mvOpts.Args(), !*mvn, *mvT)
+	case "cp":
+		cpOpts.Parse(argv)
+		cp(cpOpts.Args(), *cpr)
 	case "mkdir":
 		mkdirOpts.Parse(argv)
 		mkdir(mkdirOpts.Args(), *mkdirp)
