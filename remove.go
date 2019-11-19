@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/golang/protobuf/proto"
-	hdfs "github.com/yanchong/gohdfs/internal/protocol/hadoop_hdfs"
+	hdfs "github.com/bitkumakichi/gohdfs/internal/protocol/hadoop_hdfs"
 )
 
 // Remove removes the named file or (empty) directory.

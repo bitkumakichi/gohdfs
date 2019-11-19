@@ -4,7 +4,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/yanchong/gohdfs"
+	"github.com/bitkumakichi/gohdfs"
 )
 
 func mv(paths []string, force, treatDestAsFile bool) {

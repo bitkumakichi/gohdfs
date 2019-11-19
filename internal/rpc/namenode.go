@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/golang/protobuf/proto"
-	hadoop "github.com/yanchong/gohdfs/internal/protocol/hadoop_common"
+	hadoop "github.com/bitkumakichi/gohdfs/internal/protocol/hadoop_common"
 	krb "gopkg.in/jcmturner/gokrb5.v5/client"
 	krbtypes "gopkg.in/jcmturner/gokrb5.v5/types"
 	"net"

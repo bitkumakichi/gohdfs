@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	hadoop "github.com/yanchong/gohdfs/internal/protocol/hadoop_common"
+	hadoop "github.com/bitkumakichi/gohdfs/internal/protocol/hadoop_common"
 	"github.com/golang/protobuf/proto"
 	"gopkg.in/jcmturner/gokrb5.v5/crypto"
 	"gopkg.in/jcmturner/gokrb5.v5/gssapi"

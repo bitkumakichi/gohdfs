@@ -8,8 +8,8 @@ import (
 	"os"
 	"time"
 
-	hdfs "github.com/yanchong/gohdfs/internal/protocol/hadoop_hdfs"
-	"github.com/yanchong/gohdfs/internal/rpc"
+	hdfs "github.com/bitkumakichi/gohdfs/internal/protocol/hadoop_hdfs"
+	"github.com/bitkumakichi/gohdfs/internal/rpc"
 	"github.com/golang/protobuf/proto"
 )
 

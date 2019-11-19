@@ -10,7 +10,7 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/yanchong/gohdfs"
+	"github.com/bitkumakichi/gohdfs"
 )
 
 func ls(paths []string, long, all, humanReadable bool) {

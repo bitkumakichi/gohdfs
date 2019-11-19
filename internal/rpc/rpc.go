@@ -10,7 +10,7 @@ import (
 	"math/rand"
 	"time"
 
-	hdfs "github.com/yanchong/gohdfs/internal/protocol/hadoop_hdfs"
+	hdfs "github.com/bitkumakichi/gohdfs/internal/protocol/hadoop_hdfs"
 	"github.com/golang/protobuf/proto"
 )
 

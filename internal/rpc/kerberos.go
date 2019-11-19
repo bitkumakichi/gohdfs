@@ -6,7 +6,7 @@ import (
 	"net"
 	"regexp"
 
-	hadoop "github.com/yanchong/gohdfs/internal/protocol/hadoop_common"
+	hadoop "github.com/bitkumakichi/gohdfs/internal/protocol/hadoop_common"
 	"gopkg.in/jcmturner/gokrb5.v5/gssapi"
 	"gopkg.in/jcmturner/gokrb5.v5/iana/keyusage"
 	krbtypes "gopkg.in/jcmturner/gokrb5.v5/types"

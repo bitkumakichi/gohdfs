@@ -7,7 +7,7 @@ import (
 	"path"
 	"text/tabwriter"
 
-	"github.com/yanchong/gohdfs"
+	"github.com/bitkumakichi/gohdfs"
 )
 
 func du(args []string, summarize, humanReadable bool) {

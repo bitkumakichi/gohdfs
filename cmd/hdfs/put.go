@@ -7,7 +7,7 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/yanchong/gohdfs"
+	"github.com/bitkumakichi/gohdfs"
 )
 
 func put(args []string) {

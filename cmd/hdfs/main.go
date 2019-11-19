@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"github.com/pborman/getopt"
-	"github.com/yanchong/gohdfs"
-	"github.com/yanchong/gohdfs/hadoopconf"
+	"github.com/bitkumakichi/gohdfs"
+	"github.com/bitkumakichi/gohdfs/hadoopconf"
 	krb "gopkg.in/jcmturner/gokrb5.v5/client"
 	"gopkg.in/jcmturner/gokrb5.v5/config"
 	"gopkg.in/jcmturner/gokrb5.v5/keytab"

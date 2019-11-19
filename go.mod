@@ -1,4 +1,4 @@
-module github.com/yanchong/gohdfs
+module github.com/bitkumakichi/gohdfs
 
 require (
 	github.com/davecgh/go-spew v1.1.0 // indirect
